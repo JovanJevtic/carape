@@ -5,6 +5,25 @@
 
 ---
 
+## ⚠️ MANDATORY — Approval & Push Workflow
+
+**Every change MUST be approved before pushing.** No exceptions.
+
+### After EVERY code change:
+1. Show the user what was changed (screenshot or description)
+2. **Ask explicitly: "Odobravate ovu promjenu?"** (or equivalent)
+3. Wait for user approval
+4. Only after approval: `git add` → `git commit` → `git push origin main`
+5. If not approved: revert or adjust based on feedback
+
+### Commit rules:
+- Git user: `Jovan Jevtic <contact@jjovan.com>`
+- Repo: `github.com/JovanJevtic/carape` (private)
+- Always push to `origin main` after approval
+- Never push without explicit user confirmation
+
+---
+
 ## 📚 Required Reading (Start of Session)
 
 Before making any changes, read these files to understand current state:
@@ -122,7 +141,7 @@ Before ending work:
 
 - Dev server: `npm run dev` → http://localhost:3000
 - Build: `npm run build`
-- Routes: `/`, `/shop`, `/product/[slug]`
+- Routes: `/`, `/shop`, `/product/[slug]`, `/lookbook`, `/about`, `/contact`, `/checkout`
 
 ---
 
