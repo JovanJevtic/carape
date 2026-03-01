@@ -32,3 +32,19 @@ npm-debug.log*
 # *.png
 # *.jpg
 jevtic-pcelarstvo/
+
+# Playwright MCP
+.playwright-mcp/
+
+# Screenshots (dev artifacts)
+homepage-*.png
+homepage-*.jpeg
+lookbook-*.png
+lookbook-*.jpeg
+shop-*.png
+shop-*.jpeg
+product-detail*.png
+fishnet-product-page.jpeg
+
+# Claude Code
+.claude/
