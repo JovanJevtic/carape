@@ -7,7 +7,7 @@ import { heroTextVariants, fadeUpVariants, easeOutExpo } from "@/lib/animations"
 
 export function LookbookHero() {
   return (
-    <section className="relative min-h-screen overflow-hidden bg-bg-primary snap-start snap-always">
+    <section className="relative min-h-screen overflow-hidden bg-bg-primary snap-start">
       {/* Background image */}
       <div className="absolute inset-0">
         <Image

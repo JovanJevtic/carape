@@ -109,6 +109,10 @@ export const products: Product[] = [
         url: "/products/opaque-matte-60.png",
         alt: "Classic black opaque tights with heels - urban street style",
       },
+      {
+        url: "/products/pexels-8511324.jpg",
+        alt: "Black opaque tights with stiletto heels - moody editorial",
+      },
     ],
     description:
       "Luxuriously opaque 60 denier tights with a velvety matte finish. Perfect for cooler days.",
@@ -273,6 +277,10 @@ export const products: Product[] = [
         url: "/products/control-top-shaper.jpg",
         alt: "Black floral rose pattern sheer tights - elegant editorial",
       },
+      {
+        url: "/products/pexels-1666600.jpg",
+        alt: "Floral pattern stockings - legs against wall artistic shot",
+      },
     ],
     description:
       "Smoothing control-top tights with graduated compression. Look sleek and feel supported all day.",
@@ -286,8 +294,8 @@ export const products: Product[] = [
       { size: "L", stock: 15 },
     ],
     colors: [
-      { name: "Black", hex: "#0A0A0A" },
-      { name: "Nude", hex: "#E8C4A2" },
+      { name: "Black", hex: "#0A0A0A", imageIndex: 0 },
+      { name: "Burgundy", hex: "#722F37", imageIndex: 1 },
     ],
     careInstructions: "Machine wash cold. Air dry recommended.",
     featured: false,

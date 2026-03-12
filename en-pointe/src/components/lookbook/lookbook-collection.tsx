@@ -53,7 +53,7 @@ export function LookbookCollectionSection({
   return (
     <section
       ref={sectionRef}
-      className="relative min-h-[80vh] lg:min-h-screen overflow-hidden snap-start snap-always"
+      className="relative min-h-[80vh] lg:min-h-screen overflow-hidden snap-start"
     >
       {/* Parallax image */}
       <motion.div

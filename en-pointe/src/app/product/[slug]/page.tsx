@@ -215,7 +215,12 @@ export default function ProductPage({ params }: ProductPageProps) {
                   {product.colors.map((color) => (
                     <button
                       key={color.name}
-                      onClick={() => setSelectedColor(color.name)}
+                      onClick={() => {
+                        setSelectedColor(color.name);
+                        if (color.imageIndex !== undefined) {
+                          setSelectedImage(color.imageIndex);
+                        }
+                      }}
                       className={cn(
                         "h-8 w-8 rounded-full border-2 transition-all",
                         selectedColor === color.name

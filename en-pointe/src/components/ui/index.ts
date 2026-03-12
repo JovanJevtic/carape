@@ -4,3 +4,4 @@ export { Badge, badgeVariants } from "./badge";
 export { Skeleton, SkeletonText, SkeletonCard, SkeletonProductGrid } from "./skeleton";
 export { Spinner, LoadingScreen, LoadingOverlay } from "./spinner";
 export { ImageZoomLens } from "./image-zoom-lens";
+export { PageLoader } from "./page-loader";

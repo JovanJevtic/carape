@@ -3,6 +3,7 @@ import { Cormorant_Garamond, Inter, Playfair_Display } from "next/font/google";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { CartSidebar } from "@/components/layout/cart-sidebar";
+import { PageLoader } from "@/components/ui/page-loader";
 import "./globals.css";
 
 const cormorant = Cormorant_Garamond({
@@ -72,6 +73,7 @@ export default function RootLayout({
       <body
         className={`${cormorant.variable} ${playfair.variable} ${inter.variable} antialiased bg-bg-primary text-text-primary`}
       >
+        <PageLoader />
         <Header />
         <main className="min-h-screen">{children}</main>
         <Footer />

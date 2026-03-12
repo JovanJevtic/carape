@@ -13,6 +13,7 @@ export interface ProductSize {
 export interface ProductColor {
   name: string;
   hex: string;
+  imageIndex?: number;
 }
 
 export interface ProductSeo {
