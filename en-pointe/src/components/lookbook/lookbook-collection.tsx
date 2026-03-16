@@ -53,7 +53,7 @@ export function LookbookCollectionSection({
   return (
     <section
       ref={sectionRef}
-      className="relative min-h-[80vh] lg:min-h-screen overflow-hidden snap-start"
+      className="relative min-h-[70vh] sm:min-h-[80vh] lg:min-h-screen overflow-hidden snap-start"
     >
       {/* Parallax image */}
       <motion.div
@@ -73,9 +73,9 @@ export function LookbookCollectionSection({
       <div className={`absolute inset-0 ${gradientClass}`} />
 
       {/* Content */}
-      <div className={`relative flex min-h-[80vh] lg:min-h-screen ${textPositionClass}`}>
+      <div className={`relative flex min-h-[70vh] sm:min-h-[80vh] lg:min-h-screen ${textPositionClass}`}>
         <div
-          className={`flex flex-col ${textAlignClass} justify-center px-8 py-24 sm:px-12 lg:px-20 xl:px-28 max-w-2xl`}
+          className={`flex flex-col ${textAlignClass} justify-end sm:justify-center px-5 py-16 sm:px-12 sm:py-24 lg:px-20 xl:px-28 max-w-2xl`}
         >
           {/* Season tag */}
           <motion.p
@@ -84,7 +84,7 @@ export function LookbookCollectionSection({
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: "-100px" }}
-            className="text-xs uppercase tracking-[0.3em] text-gold"
+            className="text-[10px] sm:text-xs uppercase tracking-[0.3em] text-gold"
           >
             {collection.season}
           </motion.p>
@@ -96,7 +96,7 @@ export function LookbookCollectionSection({
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: "-100px" }}
-            className="mt-4 font-display text-4xl sm:text-5xl lg:text-6xl text-text-primary leading-tight"
+            className="mt-3 sm:mt-4 font-display text-3xl sm:text-5xl lg:text-6xl text-text-primary leading-tight"
           >
             {collection.title}
           </motion.h2>
@@ -108,7 +108,7 @@ export function LookbookCollectionSection({
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: "-100px" }}
-            className="mt-3 font-display text-lg text-text-primary/70 italic"
+            className="mt-2 sm:mt-3 font-display text-base sm:text-lg text-text-primary/70 italic"
           >
             {collection.subtitle}
           </motion.p>
@@ -120,7 +120,7 @@ export function LookbookCollectionSection({
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: "-100px" }}
-            className="mt-6 text-sm leading-relaxed text-text-muted max-w-md"
+            className="mt-4 sm:mt-6 text-xs sm:text-sm leading-relaxed text-text-muted max-w-md"
           >
             {collection.description}
           </motion.p>
@@ -132,7 +132,7 @@ export function LookbookCollectionSection({
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: "-100px" }}
-            className="mt-8 flex flex-wrap gap-3"
+            className="mt-5 sm:mt-8 flex flex-wrap gap-2.5 sm:gap-3"
           >
             {products.map((product) => (
               <Link
@@ -140,16 +140,16 @@ export function LookbookCollectionSection({
                 href={`/product/${product.slug}`}
                 className="group"
               >
-                <div className="relative w-20 h-28 lg:w-24 lg:h-32 overflow-hidden rounded-sm bg-bg-surface transition-transform duration-300 group-hover:scale-105">
+                <div className="relative w-16 h-22 sm:w-20 sm:h-28 lg:w-24 lg:h-32 overflow-hidden rounded-sm bg-bg-surface transition-transform duration-300 group-hover:scale-105">
                   <Image
                     src={product.images[0].url}
                     alt={product.images[0].alt}
                     fill
                     className="object-cover"
-                    sizes="96px"
+                    sizes="(max-width: 640px) 64px, 96px"
                   />
                 </div>
-                <p className="mt-2 text-[10px] uppercase tracking-wider text-text-muted group-hover:text-text-primary transition-colors text-center max-w-20 lg:max-w-24 leading-tight">
+                <p className="mt-1.5 sm:mt-2 text-[9px] sm:text-[10px] uppercase tracking-wider text-text-muted group-hover:text-text-primary transition-colors text-center max-w-16 sm:max-w-20 lg:max-w-24 leading-tight">
                   {product.name}
                 </p>
               </Link>
@@ -163,11 +163,11 @@ export function LookbookCollectionSection({
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: "-100px" }}
-            className="mt-8"
+            className="mt-5 sm:mt-8"
           >
             <Link
               href={`/shop?category=${collection.shopCategory}`}
-              className="inline-flex h-11 items-center justify-center rounded-sm border border-gold/60 px-8 text-xs font-medium uppercase tracking-wider text-gold transition-all hover:bg-gold hover:text-bg-primary"
+              className="inline-flex h-10 sm:h-11 items-center justify-center rounded-sm border border-gold/60 px-6 sm:px-8 text-[10px] sm:text-xs font-medium uppercase tracking-wider text-gold transition-all hover:bg-gold hover:text-bg-primary"
             >
               Shop the Collection
             </Link>
