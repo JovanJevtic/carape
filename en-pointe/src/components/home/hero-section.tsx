@@ -9,22 +9,22 @@ import { easeOutExpo } from "@/lib/animations";
 // Scene 1 - Editorial mix: different sizes, film strip feel
 const scene1Images = [
   { src: "/products/hero.jpg", alt: "EN POINTE editorial", cls: "w-[42vw] sm:w-[30vw] h-[55vh] sm:h-[65vh] left-[3%] top-[12%]" },
-  { src: "/products/silk-evening-sheer.jpg", alt: "Silk evening sheers", cls: "w-[28vw] sm:w-[20vw] h-[35vh] sm:h-[42vh] right-[6%] top-[6%]" },
-  { src: "/products/velvet-noir-thigh.jpg", alt: "Velvet noir thigh-highs", cls: "w-[24vw] sm:w-[17vw] h-[28vh] sm:h-[32vh] right-[18%] bottom-[8%]" },
+  { src: "/products/sheer-elegance-15.webp", alt: "Sheer elegance stockings", cls: "w-[28vw] sm:w-[20vw] h-[35vh] sm:h-[42vh] right-[6%] top-[6%]" },
+  { src: "/products/control-top-shaper.jpg", alt: "Floral pattern tights", cls: "w-[24vw] sm:w-[17vw] h-[28vh] sm:h-[32vh] right-[18%] bottom-[8%]" },
 ];
 
 // Scene 2 - New editorial images
 const scene2Images = [
-  { src: "/products/crystal-shimmer-evening.jpg", alt: "Crystal shimmer evening", cls: "w-[38vw] sm:w-[26vw] h-[50vh] sm:h-[58vh] right-[4%] top-[10%]" },
-  { src: "/products/seam-back-vintage.jpg", alt: "Vintage seam-back stockings", cls: "w-[26vw] sm:w-[18vw] h-[32vh] sm:h-[38vh] left-[6%] bottom-[10%]" },
-  { src: "/products/editorial-legs-01.jpg", alt: "Editorial fashion legs", cls: "w-[22vw] sm:w-[16vw] h-[28vh] sm:h-[33vh] left-[8%] top-[8%]" },
+  { src: "/products/classic-ribbed-ankle.jpg", alt: "Lace ankle socks editorial", cls: "w-[38vw] sm:w-[26vw] h-[50vh] sm:h-[58vh] right-[4%] top-[10%]" },
+  { src: "/products/pexels-1666600.jpg", alt: "Floral pattern stockings", cls: "w-[26vw] sm:w-[18vw] h-[32vh] sm:h-[38vh] left-[6%] bottom-[10%]" },
+  { src: "/products/fishnet-statement.png", alt: "Diamond fishnet tights", cls: "w-[22vw] sm:w-[16vw] h-[28vh] sm:h-[33vh] left-[8%] top-[8%]" },
 ];
 
 // Scene 3 - CTA scene images
 const scene3Images = [
-  { src: "/products/sheer-nude-editorial.jpg", alt: "Sheer nude editorial", cls: "w-[36vw] sm:w-[27vw] h-[50vh] sm:h-[56vh] left-[5%] top-[8%]" },
-  { src: "/products/luxe-sheer-black.jpg", alt: "Luxe sheer black", cls: "w-[30vw] sm:w-[22vw] h-[38vh] sm:h-[44vh] right-[4%] top-[6%]" },
-  { src: "/products/bridal-sheer-white.jpg", alt: "Bridal sheer ivory", cls: "w-[22vw] sm:w-[16vw] h-[26vh] sm:h-[30vh] right-[14%] bottom-[8%]" },
+  { src: "/products/cashmere-knee-high.jpg", alt: "Nude lace tights editorial", cls: "w-[36vw] sm:w-[27vw] h-[50vh] sm:h-[56vh] left-[5%] top-[8%]" },
+  { src: "/products/pexels-8511324.jpg", alt: "Black stockings with heels", cls: "w-[30vw] sm:w-[22vw] h-[38vh] sm:h-[44vh] right-[4%] top-[6%]" },
+  { src: "/products/bamboo-everyday.png", alt: "Chevron pattern tights", cls: "w-[22vw] sm:w-[16vw] h-[26vh] sm:h-[30vh] right-[14%] bottom-[8%]" },
 ];
 
 export function HeroSection() {

@@ -324,7 +324,7 @@ export const products: Product[] = [
     price: 72,
     images: [
       {
-        url: "/products/silk-evening-sheer.jpg",
+        url: "/products/sheer-elegance-15.webp",
         alt: "Silk-infused sheer stockings - luxury evening editorial",
       },
     ],
@@ -357,7 +357,7 @@ export const products: Product[] = [
     price: 68,
     images: [
       {
-        url: "/products/velvet-noir-thigh.jpg",
+        url: "/products/hero.jpg",
         alt: "Velvet-finish opaque thigh-high stockings - noir editorial",
       },
     ],
@@ -389,7 +389,7 @@ export const products: Product[] = [
     price: 55,
     images: [
       {
-        url: "/products/seam-back-vintage.jpg",
+        url: "/products/sheer-elegance-15.webp",
         alt: "Vintage-inspired back-seam stockings - retro glamour editorial",
       },
     ],
@@ -421,7 +421,7 @@ export const products: Product[] = [
     price: 85,
     images: [
       {
-        url: "/products/bridal-sheer-white.jpg",
+        url: "/products/cashmere-knee-high.jpg",
         alt: "Bridal ivory sheer stockings with delicate lace trim",
       },
     ],
@@ -453,7 +453,7 @@ export const products: Product[] = [
     price: 42,
     images: [
       {
-        url: "/products/micro-mesh-noir.jpg",
+        url: "/products/opaque-matte-60.png",
         alt: "Fine micro-mesh pattern tights - contemporary noir style",
       },
     ],
@@ -485,7 +485,7 @@ export const products: Product[] = [
     price: 44,
     images: [
       {
-        url: "/products/opaque-bordeaux.jpg",
+        url: "/products/hero.jpg",
         alt: "Rich bordeaux opaque tights - autumn editorial styling",
       },
     ],
@@ -518,7 +518,7 @@ export const products: Product[] = [
     price: 58,
     images: [
       {
-        url: "/products/ribbed-merino-grey.jpg",
+        url: "/products/bamboo-everyday.png",
         alt: "Ribbed merino wool knee-high socks - cozy luxury editorial",
       },
     ],
@@ -551,7 +551,7 @@ export const products: Product[] = [
     price: 78,
     images: [
       {
-        url: "/products/crystal-shimmer-evening.jpg",
+        url: "/products/classic-ribbed-ankle.jpg",
         alt: "Shimmer-infused evening sheers with subtle sparkle",
       },
     ],
@@ -584,7 +584,7 @@ export const products: Product[] = [
     price: 36,
     images: [
       {
-        url: "/products/pattern-weave-detail.jpg",
+        url: "/products/fishnet-statement.png",
         alt: "Subtle geometric weave pattern socks - everyday style",
       },
     ],
@@ -617,7 +617,7 @@ export const products: Product[] = [
     price: 30,
     images: [
       {
-        url: "/products/everyday-comfort-knit.jpg",
+        url: "/products/pexels-8511324.jpg",
         alt: "Soft knit everyday socks - comfort lifestyle editorial",
       },
     ],
@@ -719,7 +719,7 @@ export const lookbookCollections: LookbookCollection[] = [
     description:
       "Silk, shimmer, and seam-back glamour for nights that demand to be remembered. From intimate dinners to black-tie galas — our evening collection turns every entrance into a moment.",
     season: "Spring/Summer 2026",
-    heroImage: "/products/silk-evening-sheer.jpg",
+    heroImage: "/products/sheer-elegance-15.webp",
     heroAlt: "Silk evening sheers with luminous finish",
     textPosition: "right",
     productSlugs: ["silk-evening-sheer", "crystal-shimmer-evening", "seam-back-vintage"],
@@ -732,7 +732,7 @@ export const lookbookCollections: LookbookCollection[] = [
     description:
       "Hand-finished ivory sheers with delicate lace and a whisper of shimmer. Designed for the bride who believes every detail matters — from the first step down the aisle to the last dance.",
     season: "Spring/Summer 2026",
-    heroImage: "/products/bridal-sheer-white.jpg",
+    heroImage: "/products/cashmere-knee-high.jpg",
     heroAlt: "Bridal ivory sheers with lace trim detail",
     textPosition: "center",
     productSlugs: ["bridal-sheer-white"],
