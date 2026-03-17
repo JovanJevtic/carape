@@ -35,11 +35,11 @@ export function HeroSection() {
   });
 
   // ===== SCENE 1 (0% - 35%) =====
-  const logoOpacity = useTransform(scrollYProgress, [0, 0.06, 0.28, 0.35], [0, 1, 1, 0]);
+  const logoOpacity = useTransform(scrollYProgress, [0, 0.28, 0.35], [1, 1, 0]);
   const logoScale = useTransform(scrollYProgress, [0, 0.08], [1.4, 1]);
   const logoY = useTransform(scrollYProgress, [0.25, 0.35], [0, -80]);
 
-  const s1o = useTransform(scrollYProgress, [0, 0.03, 0.27, 0.35], [0, 1, 1, 0]);
+  const s1o = useTransform(scrollYProgress, [0, 0.27, 0.35], [1, 1, 0]);
   const s1x0 = useTransform(scrollYProgress, [0.05, 0.35], ["0%", "-130%"]);
   const s1x1 = useTransform(scrollYProgress, [0.05, 0.35], ["0%", "130%"]);
   const s1x2 = useTransform(scrollYProgress, [0.05, 0.35], ["0%", "110%"]);
